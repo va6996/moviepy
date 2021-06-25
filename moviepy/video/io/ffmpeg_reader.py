@@ -102,6 +102,8 @@ class FFMPEG_VideoReader:
             + [
                 "-loglevel",
                 "error",
+                "-c:a",
+                "h264_nvenc"
                 "-f",
                 "image2pipe",
                 "-vf",
