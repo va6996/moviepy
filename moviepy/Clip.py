@@ -4,7 +4,7 @@ are common to the two subclasses of Clip, VideoClip and AudioClip.
 
 import copy as _copy
 
-import numpy as np
+import cupy as np
 import proglog
 
 from moviepy.decorators import (

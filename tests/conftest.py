@@ -13,7 +13,7 @@ import sys
 import tempfile
 import threading
 
-import numpy as np
+import cupy as np
 
 import pytest
 

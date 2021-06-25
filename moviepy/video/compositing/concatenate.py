@@ -2,7 +2,7 @@
 
 from functools import reduce
 
-import numpy as np
+import cupy as np
 
 from moviepy.audio.AudioClip import CompositeAudioClip
 from moviepy.video.compositing.CompositeVideoClip import CompositeVideoClip

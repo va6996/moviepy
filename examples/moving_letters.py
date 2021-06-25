@@ -1,4 +1,4 @@
-import numpy as np
+import cupy as np
 
 from moviepy import *
 from moviepy.video.tools.segmenting import find_objects

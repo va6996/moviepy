@@ -26,7 +26,7 @@ def _get_PIL_resizer():
     except ImportError:
         return (None, ["PIL not found (install 'Pillow')"])
 
-    import numpy as np
+    import cupy as np
 
     def resizer(pic, new_size):
         new_size = list(map(int, new_size))[::-1]

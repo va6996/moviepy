@@ -1,6 +1,6 @@
 """Main video composition interface of MoviePy."""
 
-import numpy as np
+import cupy as np
 from PIL import Image
 
 from moviepy.audio.AudioClip import CompositeAudioClip

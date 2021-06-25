@@ -1,6 +1,6 @@
 """Cutting utilities working with audio."""
 
-import numpy as np
+import cupy as np
 
 
 def find_audio_period(clip, min_time=0.1, max_time=2, time_resolution=0.01):

@@ -7,7 +7,7 @@
 import numbers
 import os
 
-import numpy as np
+import cupy as np
 import proglog
 
 from moviepy.audio.io.ffmpeg_audiowriter import ffmpeg_audiowrite
@@ -47,7 +47,7 @@ class AudioClip(Clip):
     --------
 
     >>> # Plays the note A in mono (a sine wave of frequency 440 Hz)
-    >>> import numpy as np
+    >>> import cupy as np
     >>> make_frame = lambda t: np.sin(440 * 2 * np.pi * t)
     >>> clip = AudioClip(make_frame, duration=5, fps=44100)
     >>> clip.preview()

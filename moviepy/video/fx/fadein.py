@@ -1,4 +1,4 @@
-import numpy as np
+import cupy as np
 
 
 def fadein(clip, duration, initial_color=None):

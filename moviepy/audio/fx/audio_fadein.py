@@ -1,4 +1,4 @@
-import numpy as np
+import cupy as np
 
 from moviepy.decorators import audio_video_fx, convert_parameter_to_seconds
 

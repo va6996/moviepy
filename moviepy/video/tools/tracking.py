@@ -7,7 +7,7 @@ and fy return the position of the object at the start or at the end of the track
 interval).
 """
 
-import numpy as np
+import cupy as np
 
 from moviepy.decorators import convert_parameter_to_seconds, use_clip_fps_by_default
 from moviepy.video.io.preview import imdisplay

@@ -3,7 +3,7 @@
 import os
 import subprocess as sp
 
-import numpy as np
+import cupy as np
 import proglog
 
 from moviepy.config import FFMPEG_BINARY, IMAGEMAGICK_BINARY

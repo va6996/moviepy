@@ -4,7 +4,7 @@ of image files.
 
 import os
 
-import numpy as np
+import cupy as np
 from imageio import imread
 
 from moviepy.video.VideoClip import VideoClip

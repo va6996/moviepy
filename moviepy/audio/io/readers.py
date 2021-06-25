@@ -3,7 +3,7 @@
 import subprocess as sp
 import warnings
 
-import numpy as np
+import cupy as np
 
 from moviepy.config import FFMPEG_BINARY
 from moviepy.tools import cross_platform_popen_params

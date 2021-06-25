@@ -1,7 +1,7 @@
 import math
 import warnings
 
-import numpy as np
+import cupy as np
 
 
 try:

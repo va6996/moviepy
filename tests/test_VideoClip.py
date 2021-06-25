@@ -3,7 +3,7 @@
 import copy
 import os
 
-import numpy as np
+import cupy as np
 from PIL import Image
 
 import pytest

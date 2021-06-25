@@ -1,4 +1,4 @@
-import numpy as np
+import cupy as np
 
 from moviepy.decorators import requires_duration
 

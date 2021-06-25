@@ -5,7 +5,7 @@ perspective effect goes towards the end of space, on a
 background made of stars. Slight fading effect on the text.
 """
 
-import numpy as np
+import cupy as np
 from skimage import transform as tf
 
 from moviepy import *

@@ -4,7 +4,7 @@ import re
 import subprocess as sp
 import warnings
 
-import numpy as np
+import cupy as np
 
 from moviepy.config import FFMPEG_BINARY  # ffmpeg, ffmpeg.exe, etc...
 from moviepy.tools import convert_to_seconds, cross_platform_popen_params

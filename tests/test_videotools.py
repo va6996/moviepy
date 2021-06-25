@@ -6,7 +6,7 @@ import os
 import shutil
 import sys
 
-import numpy as np
+import cupy as np
 
 import pytest
 

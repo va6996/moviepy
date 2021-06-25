@@ -272,7 +272,7 @@ def test_issue_359(util):
 @pytest.mark.skipif(not matplotlib, reason="no matplotlib")
 def test_issue_368(util):
     import matplotlib.pyplot as plt
-    import numpy as np
+    import cupy as np
     from sklearn import svm
     from sklearn.datasets import make_moons
 

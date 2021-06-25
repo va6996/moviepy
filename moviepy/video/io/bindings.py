@@ -2,7 +2,7 @@
 matplotlib, mayavi, etc.)
 """
 
-import numpy as np
+import cupy as np
 
 
 def mplfig_to_npimage(fig):

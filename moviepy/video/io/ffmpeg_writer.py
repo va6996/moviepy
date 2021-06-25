@@ -5,7 +5,7 @@ out of VideoClips
 
 import subprocess as sp
 
-import numpy as np
+import cupy as np
 from proglog import proglog
 
 from moviepy.config import FFMPEG_BINARY

@@ -2,7 +2,7 @@
 
 import copy
 
-import numpy as np
+import cupy as np
 
 import pytest
 

@@ -9,7 +9,7 @@ import os
 import subprocess as sp
 import tempfile
 
-import numpy as np
+import cupy as np
 import proglog
 from imageio import imread, imsave
 from PIL import Image

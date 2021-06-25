@@ -1,6 +1,6 @@
 """Utilities related with segmenting useful working with video clips."""
 
-import numpy as np
+import cupy as np
 import scipy.ndimage as ndi
 
 from moviepy.video.VideoClip import ImageClip

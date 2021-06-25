@@ -1,4 +1,4 @@
-import numpy as np
+import cupy as np
 
 
 def mask_color(clip, color=None, threshold=0, stiffness=1):

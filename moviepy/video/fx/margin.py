@@ -1,4 +1,4 @@
-import numpy as np
+import cupy as np
 
 from moviepy.decorators import apply_to_mask
 from moviepy.video.VideoClip import ImageClip

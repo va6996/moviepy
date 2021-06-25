@@ -2,7 +2,7 @@
 
 from collections import defaultdict
 
-import numpy as np
+import cupy as np
 
 from moviepy.decorators import convert_parameter_to_seconds, use_clip_fps_by_default
 

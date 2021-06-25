@@ -1,4 +1,4 @@
-import numpy as np
+import cupy as np
 
 
 def blackwhite(clip, RGB=None, preserve_luminosity=True):

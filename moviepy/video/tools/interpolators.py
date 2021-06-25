@@ -1,6 +1,6 @@
 """Classes for easy interpolation of trajectories and curves."""
 
-import numpy as np
+import cupy as np
 
 
 class Interpolator:

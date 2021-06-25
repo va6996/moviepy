@@ -1,4 +1,4 @@
-import numpy as np
+import cupy as np
 
 from moviepy.audio.AudioClip import CompositeAudioClip
 from moviepy.audio.fx.multiply_volume import multiply_volume

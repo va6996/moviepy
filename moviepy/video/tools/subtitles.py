@@ -2,7 +2,7 @@
 
 import re
 
-import numpy as np
+import cupy as np
 
 from moviepy.decorators import convert_path_to_string
 from moviepy.tools import convert_to_seconds
