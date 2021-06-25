@@ -5,6 +5,7 @@ import subprocess as sp
 import warnings
 
 import cupy as np
+import numpy
 
 from moviepy.config import FFMPEG_BINARY  # ffmpeg, ffmpeg.exe, etc...
 from moviepy.tools import convert_to_seconds, cross_platform_popen_params
@@ -187,9 +188,11 @@ class FFMPEG_VideoReader:
 
         else:
             if hasattr(np, "frombuffer"):
-                result = np.frombuffer(s, dtype="uint8")
+                res = numpy.frombuffer(s, dtype="uint8")
+                result = np.asarray(res, dtype="uint8")
             else:
-                result = np.fromstring(s, dtype="uint8")
+                res = numpy.fromstring(s, dtype="uint8")
+                result = np.asarray(res, dtype="uint8")
             result.shape = (h, w, len(s) // (w * h))  # reshape((h, w, len(s)//(w*h)))
             self.last_read = result
 
